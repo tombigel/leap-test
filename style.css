@@ -17,7 +17,8 @@
     vertical-align: top;
     height: 1000px;
     padding: 0 10px;
-    border-right: 1px solid #666;
+    border: 1px solid #ccc;
+    border-width: 0 1px 0 1px;
 }
 
 pre {
