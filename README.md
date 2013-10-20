@@ -5,4 +5,4 @@ Simple test code for the Leap Motion SDK
 
 Using Fabric.js to paint fingers and hands
 
-see https://github.com/tombigel/leap-test
+Enable your Leap Motion and goto http://tombigel.github.io/leap-test/
