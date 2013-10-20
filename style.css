@@ -1,14 +1,15 @@
-#playground {
-    display: inline-block;
-    vertical-align: top;
+.playground {
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    border-width: 1px 0 1px 0;
 }
 
 .intro{
-    line-height:2em;
+    line-height: 2em;
     padding: 2px 20px;
-    font-size:12px;
+    font-size: 12px;
     background: #f4f4f4;
-    border-bottom:1px solid #ccc;
+    
 }
 
 .col {
@@ -17,7 +18,11 @@
     vertical-align: top;
     height: 1000px;
     padding: 0 10px;
-    border-right: 1px solid #666;
+    border-left: 1px solid #ccc;
+    overflow: auto;
+}
+.col:first-child{
+    borfer-left: none;
 }
 
 pre {

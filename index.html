@@ -8,25 +8,26 @@
 </head>
 <body>
     <div class="intro">
-        Leap Motion test by <a href="https://twitter.com/bigel">Tom Bigelajzen</a>. <a href="https://github.com/tombigel/leap-test">Fork me on Github</a>
+        Leap Motion test | <a href="https://twitter.com/bigel">Tom Bigelajzen</a> | <a href="https://github.com/tombigel/leap-test">Code on Github</a>
     </div>
-    <div id="playground">
-        <canvas id="canvas" class="col" width="1000" height="1000"></canvas>
-    </div>
+    <div class="playground">
+        <div class="col">
+            <canvas id="canvas" width="1000" height="1000"></canvas>
+        </div>  
 
-    <div class="col">
-        <h4>Fingers:</h4>
-        <pre id="pointables"></pre>
+        <div class="col">
+            <h4>Fingers:</h4>
+            <pre id="pointables"></pre>
+        </div>
+        <div class="col">
+            <h4>Hands:</h4>
+            <pre id="hands"></pre>
+        </div>
+        <div class="col">
+            <h4>Gestures:</h4>
+            <pre id="gestures"></pre>
+        </div>
     </div>
-    <div class="col">
-        <h4>Hands:</h4>
-        <pre id="hands"></pre>
-    </div>
-    <div class="col">
-        <h4>Gestures:</h4>
-        <pre id="gestures"></pre>
-    </div>
-
     <script src="http://js.leapmotion.com/0.2.0/leap.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="libs/underscore-min.js"></script>
