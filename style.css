@@ -1,0 +1,17 @@
+#playground {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col {
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: top;
+    height: 1000px;
+    padding: 0 10px;
+    border-right: 1px solid #666;
+}
+
+pre {
+    display: inline-block;
+}
