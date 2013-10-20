@@ -133,6 +133,7 @@ function updateCanvas(frame) {
             params.push(40);
             //Override circle color
             params.push('blue');
+            params.push('purple');
 
             hands[index].set(getCircleParams.apply(this, params));
         } else {
