@@ -3,6 +3,12 @@
     vertical-align: top;
 }
 
+.intro{
+    line-height:2em;
+    padding: 2px 20px;
+    border-bottom:1px solid #000;
+}
+
 .col {
     font-size: 10px;
     display: inline-block;
