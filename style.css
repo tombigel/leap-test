@@ -1,6 +1,5 @@
-#playground {
-    display: inline-block;
-    vertical-align: top;
+.playground {
+    white-space:no-wrap;
 }
 
 .intro{
